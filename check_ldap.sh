@@ -30,7 +30,7 @@ function mensaje() {
 
 function clean_duplicates() {
    #Esta función la ha hecho chatgpt
-   #Recibe una lista de strings y se queda con aquellos que no están contenidos dentro de otro string de la lista.
+   #Recibe una lista de strings y se queda con aquellos que no están contenidos dentro de otro string de la propia lista.
    input=$1
    output=""
    for i in $input
